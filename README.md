@@ -11,18 +11,24 @@ A command-line interface for managing Solana wallets, built with Bun.
 Ensure you have Bun (https://bun.sh/) installed on your system.
 
 Clone the repository and install dependencies:
-git clone https://github.com/yourusername/solana-wallet-cli.git
+```
+git clone https://github.com/0xahzam/solana-wallet-cli.git
 cd solana-wallet-cli
 bun install
+```
 
 ## Usage
 Run the CLI using:
+```
 bun run start [command] [options]
+```
 
 ### Create an Alias (Recommended)
 To make using the CLI easier, create an alias in your shell configuration file (e.g., .bashrc, .zshrc):
 
+```
 alias soylana="bun run start"
+```
 
 After adding the alias, reload your shell configuration or restart your terminal. Now you can use 'soylana' instead of 'bun run start' for all commands.
 
@@ -45,15 +51,22 @@ After adding the alias, reload your shell configuration or restart your terminal
 
 ## Examples
 Generate a new keypair:
-`soylana generate -o my-wallet.json`
+```
+soylana generate -o my-wallet.json
+```
 
 Airdrop 1 SOL:
-`soylana airdrop -f my-wallet.json -a 1`
+```
+soylana airdrop -f my-wallet.json -a 1
+```
 
 Check balance:
-`soylana balance -f my-wallet.json`
-
+```
+soylana balance -f my-wallet.json
+```
 Transfer 0.5 SOL:
-`soylana transfer -f my-wallet.json -r 9izkL55ivV51yZovUiyMmZv8gr6Yd4uZ4QCfNLHPeVeu -a 0.5`
+```
+soylana transfer -f my-wallet.json -r 9izkL55ivV51yZovUiyMmZv8gr6Yd4uZ4QCfNLHPeVeu -a 0.5
+```
 
 <img width="836" alt="soylana" src="https://github.com/user-attachments/assets/3cdf2f9e-31da-4fc6-b593-e21f6bfe14ca">
