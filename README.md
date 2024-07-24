@@ -57,3 +57,5 @@ bun run start balance -f my-wallet.json
 
 Transfer 0.5 SOL:
 bun run start transfer -f my-wallet.json -r 9izkL55ivV51yZovUiyMmZv8gr6Yd4uZ4QCfNLHPeVeu -a 0.5
+
+<img width="836" alt="soylana" src="https://github.com/user-attachments/assets/3cdf2f9e-31da-4fc6-b593-e21f6bfe14ca">
